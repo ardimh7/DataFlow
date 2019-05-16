@@ -10,6 +10,9 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var textField_yourName: UITextField!
+    @IBOutlet weak var textField_yourGFNumber: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -18,3 +21,6 @@ class ViewController: UIViewController {
 
 }
 
+extension ViewController : UITextFieldDelegate {
+    
+}
