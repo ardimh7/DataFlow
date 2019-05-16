@@ -15,12 +15,27 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        textField_yourName.delegate = self
     }
 
 
 }
 
 extension ViewController : UITextFieldDelegate {
-    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        
+        if textField == textField_yourName {
+            // pindah ke textfield berikutnya
+            textField_yourGFNumber.becomeFirstResponder()
+        }
+        else
+        {
+            // hide keyboard
+            textField_yourGFNumber.resignFirstResponder()
+        }
+        
+        return true
+        
+    }
 }
