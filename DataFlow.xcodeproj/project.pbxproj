@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE78F0C7228D1D4B005F78C2 /* RegisterComplete_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE78F0C6228D1D4B005F78C2 /* RegisterComplete_VC.swift */; };
 		FEB35EB0228D0DEE00E6E716 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB35EAF228D0DEE00E6E716 /* AppDelegate.swift */; };
 		FEB35EB2228D0DEE00E6E716 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEB35EB1228D0DEE00E6E716 /* ViewController.swift */; };
 		FEB35EB5228D0DEE00E6E716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB35EB3228D0DEE00E6E716 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE78F0C6228D1D4B005F78C2 /* RegisterComplete_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterComplete_VC.swift; sourceTree = "<group>"; };
 		FEB35EAC228D0DEE00E6E716 /* DataFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEB35EAF228D0DEE00E6E716 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FEB35EB1228D0DEE00E6E716 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				FEB35EAF228D0DEE00E6E716 /* AppDelegate.swift */,
 				FEB35EB1228D0DEE00E6E716 /* ViewController.swift */,
 				FEB35EB3228D0DEE00E6E716 /* Main.storyboard */,
+				FE78F0C6228D1D4B005F78C2 /* RegisterComplete_VC.swift */,
 				FEB35EB9228D0DEF00E6E716 /* Assets.xcassets */,
 				FEB35EBB228D0DEF00E6E716 /* LaunchScreen.storyboard */,
 				FEB35EBE228D0DEF00E6E716 /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				FEB35EB2228D0DEE00E6E716 /* ViewController.swift in Sources */,
 				FEB35EB8228D0DEE00E6E716 /* DataFlow.xcdatamodeld in Sources */,
+				FE78F0C7228D1D4B005F78C2 /* RegisterComplete_VC.swift in Sources */,
 				FEB35EB0228D0DEE00E6E716 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
